@@ -60,7 +60,7 @@ let numberString = "";
 for (let i = 0; i < numbers.length; i++){
     numberString += numbers[i];
     if (i < numbers.length - 1){
-        numbersString += ", ";
+        numberString += ", ";
     }
 }
 console.log("Numbers: " + numberString);
